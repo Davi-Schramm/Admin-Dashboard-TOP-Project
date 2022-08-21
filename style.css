@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+}
+
+#sidebar{
+    background-color: rgb(60, 121, 254);
+    height: 100vh;
+}
+
+#sidebar *{
+    color:white;
+}
+
+#page{
+    background-color: gray;
+    height: 100vh;    
+}
+
+#title{
+    display: flex;
+    margin: 5%;
+}
+
+#title > div{
+    flex:1 0 1;
+    padding-right: 30px;
+}
+
+#icon{
+    display: grid;
+    grid-template-columns: 1rem 1rem;
+    grid-template-rows: 1rem 1rem;
+}
+
+#icon > div{
+    margin: 2px;
+    background-color: white;
+}
+
+#one{
+    height: 1rem;
+}
+
+#options{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#options *{
+    font-weight: 500;
+    display: inline;
+    padding: 10px;
+}
+
+#support > div{
+    display: flex;
+    padding-left: 12px;
+}
+
+#support div *{
+    padding: 10px;
+}
